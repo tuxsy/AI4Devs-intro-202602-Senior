@@ -7,7 +7,9 @@ input.addEventListener("input", () => {
     const text = input.value;
 
     // Forma más simple y clara en JS
-    const reversed = text.split("").reverse().join("");
+    const segmenter = new Intl.Segmenter(undefined, { granularity: "grapheme" });
+    const graphemes = Array.from(segmenter.segment(text), s => s.segment);
+    const reversed = graphemes.reverse().join("");
 
     output.textContent = reversed;
 });
