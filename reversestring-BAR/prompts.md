@@ -8,7 +8,7 @@ He utilizado **ChatGPT** con el modelo *GPT 5.2* y las opciones de razonamiento 
 He introducido el prompt indicado a continuación, tal cual, en formato *markdown*.
 
 
-## Prommpt utilizado
+## Prompt utilizado
 
 ### Rol
 
@@ -28,7 +28,7 @@ Como usuario que desea manipular texto en una página web, quiero introducir una
 
 - La solución debe constar de únicamente dos ficheros `index.html` y `script.js`
 - Usa Vanilla JS, no emplees ninguna librería ni framework
-- Construye todo el árbol DOM mediante tags en `index.html`. En `scripts.js` sólo deben haber handlers y lógica
+- Construye todo el árbol DOM mediante tags en `index.html`. En `script.js` sólo deben haber handlers y lógica
 - Evita el uso de estilos in-line. Añade todo el CSS necesario entre tags `<style> ... </style>`
 
 ### Plantilla para `index.html`
